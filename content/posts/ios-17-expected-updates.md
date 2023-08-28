@@ -1,6 +1,6 @@
 ---
 title: "iOS 17: What's Coming in the New Update"
-date: 2023-08-29T02:01:00Z
+date: 2023-08-28T04:01:00Z
 image: /images/post/ios17.jpg
 categories: ["news", "apple"]
 featured: True
