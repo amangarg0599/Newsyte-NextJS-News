@@ -30,7 +30,9 @@ const Header = () => {
   }, [showMenu]);
 
   return (
+    
     <header className="header">
+      
       <nav className="navbar container px-1 sm:px-8">
         <div className="order-0">
           <Logo />
