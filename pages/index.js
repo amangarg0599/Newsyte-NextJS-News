@@ -76,7 +76,7 @@ const Home = ({
       </section>
 
       {/* Home main */}
-      {/* <section className="section"> */}
+      <section className="section">
         <div className="container">
           <div className="row items-start">
             <div className="mb-12 lg:mb-0 lg:col-8">
@@ -173,7 +173,7 @@ const Home = ({
             />
           </div>
         </div>
-      {/* </section> */}
+      </section>
     </Base>
   );
 };

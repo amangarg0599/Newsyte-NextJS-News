@@ -1,12 +1,12 @@
 ---
 banner:
   title: Welcome **!**
-  # title_small: "Newsyte"
-  # content: Exploring Tomorrow's Tech Today- Your source for the latest in technology trends, insights, and innovations at Newsyte.
-  image_enable: False
+  title_small: "to John Bravo's Blog"
+  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  image_enable: true
   image: /images/banner-author.png
   button:
-    enable: False
+    enable: true
     label: Know About Me
     link: /about
     rel: ""

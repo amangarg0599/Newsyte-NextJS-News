@@ -9,12 +9,23 @@
       "url": "/about"
     },
     {
-      "name": "Categories",
-          "url": "/categories"
+      "name": "Elements",
+      "url": "/elements"
     },
     {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "Pages",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Categories",
+          "url": "/categories"
+        }
+      ]
     }
   ],
   "footer": [
@@ -29,5 +40,10 @@
     {
       "name": "Contact",
       "url": "/contact"
-    }  ]
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "#"
+    }
+  ]
 }
