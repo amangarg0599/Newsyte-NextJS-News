@@ -1,13 +1,13 @@
 {
   "site": {
-    "title": "Geeky Nextjs",
+    "title": "Newsyte",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_white": "/images/logo-light.png",
+    "logo_white": "/images/logo.png",
     "logo_width": "150",
     "logo_height": "39",
-    "logo_text": "Geeky"
+    "logo_text": "Newsyte"
   },
   "settings": {
     "theme_switcher": true,
@@ -22,30 +22,30 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "Designed and Developed By [Statichunt](https://statichunt.com/)"
+    "footer_content": "Exploring Tomorrow's Tech Today: Your source for the latest in technology trends, insights, and innovations at Newsyte.",
+    "copyright": "Designed and Developed By [Newsyte Team ❤️](https://zibblo.com/)"
   },
   "metadata": {
-    "meta_author": "Statichunt",
+    "meta_author": "Aman",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Geeky Nextjs Personal Blog Template"
+    "meta_description": "Newsyte News Website"
   },
   "widgets": {
     "about": {
       "enable": true,
-      "content": "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+      "content": "Exploring Tomorrow's Tech Today: Your source for the latest in technology trends, insights, and innovations at Newsyte."
     },
     "featured_posts": {
       "enable": true,
-      "title": "Blog Categories",
+      "title": "Categories",
       "showPost": 3
     },
     "categories": {
       "enable": true,
-      "title": "Blog Categories"
+      "title": "Categories"
     },
     "newsletter": {
-      "enable": true,
+      "enable": false,
       "title": "Newsletter",
       "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
       "privacy_policy_page": "#",
@@ -54,7 +54,7 @@
   },
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "newsyte",
     "settings": {}
   }
 }
