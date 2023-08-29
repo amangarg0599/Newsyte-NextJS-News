@@ -8,12 +8,7 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head>
-         {/* Adsense */}
-         <script
-            data-ad-client="ca-pub-1722804840732560"
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script>
+         
         {/* favicon */}
         <link rel="shortcut icon" href={favicon} />
         {/* theme meta */}

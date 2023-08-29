@@ -21,7 +21,7 @@
     "blog_folder": "posts"
   },
   "params": {
-    "tag_manager_id": "",
+    "tag_manager_id": "G-JD1B356GRY",
     "footer_content": "Exploring Tomorrow's Tech Today: Your source for the latest in technology trends, insights, and innovations at Newsyte.",
     "copyright": "Designed and Developed By [Newsyte Team ❤️](https://zibblo.com/)"
   },
@@ -48,7 +48,7 @@
       "enable": false,
       "title": "Newsletter",
       "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
-      "privacy_policy_page": "#",
+      "privacy_policy_page": "/about",
       "malichipm_url": ""
     }
   },
