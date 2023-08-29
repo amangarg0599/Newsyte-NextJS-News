@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import config from "@config/config.json";
 import Base from "@layouts/Baseof";
 import ImageFallback from "@layouts/components/ImageFallback";
@@ -182,6 +183,8 @@ export default Home;
 
 // for homepage data
 export const getStaticProps = async () => {
+  //Vercel analytics
+  <Analytics />
   const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
   const { banner, featured_posts, recent_posts, promotion } = frontmatter;
