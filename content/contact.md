@@ -1,20 +1,17 @@
 ---
 title: "Let’s, Talk </br> About You"
 description: "meta description"
-phone: "+211234565523"
-mail: "info@email.com"
-location: "9567 Turner Trace Apt. BC C3G8A4"
+phone: "+91"
+mail: "pufflepost@gmail.com"
+location: "Delhi, India"
 form_action: "#"
 layout: "contact"
 addresses:
-  - icon: FaUserAlt
-    content: +211234565523
-    link: tel:+211234565523
   - icon: FaMapMarkerAlt
-    content: info@email.com
-    link: mailto:info@email.com
+    content: pufflepost@gmail.com
+    link: mailto:pufflepost@gmail.com
   - icon: FaLocation
-    content: 9567 Turner Trace Apt. BC C3G8A4
+    content: Delhi, India
 
 draft: false
 ---
