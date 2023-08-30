@@ -23,13 +23,20 @@ const App = ({ Component, pageProps }) => {
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 
-  //Adsense Code
-  // Adsense 
-  <script
-  data-ad-client="ca-pub-1722804840732560"
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-></script>
+  // <!-- Google tag (gtag.js) -->
+  // <><script async src="https://www.googletagmanager.com/gtag/js?id=G-EQ1G07P5BZ"></script><script>
+  //     window.dataLayer = window.dataLayer || [];
+  //     function gtag(){dataLayer.push(arguments)};}
+  //     gtag('js', new Date());
+
+  //     gtag('config', 'G-EQ1G07P5BZ');
+  //   </script>
+      //Adsense Code
+      // <script
+      //   data-ad-client="ca-pub-1722804840732560"
+      //   async
+      //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      // ></script></>
   // google tag manager (gtm)
   const tagManagerArgs = {
     gtmId: config.params.tag_manager_id,
