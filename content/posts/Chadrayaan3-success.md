@@ -2,7 +2,7 @@
 title: "Chandrayaan-3 On Moon South Pole"
 date: 2023-08-28T07:13:00Z
 image: /images/post/Chandrayaan3.jpeg
-categories: ["news", "Chandrayaan-3"]
+categories: ["space", "Chandrayaan-3"]
 featured: True
 draft: False
 

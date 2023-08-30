@@ -2,7 +2,7 @@
 title: "iPhone 15 Leaks and rumours roundup"
 date: 2023-08-28T02:00:00Z
 image: /images/post/iPhone-15-Blue-Three-Quarters-Perspective-Feature.jpg
-categories: ["news", "apple"]
+categories: ["rumours", "apple"]
 featured: True
 draft: false
 

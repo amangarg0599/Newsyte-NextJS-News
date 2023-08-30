@@ -2,7 +2,7 @@
 title: "Voice Commands Glitch Plagues Google Assistant on Android Auto"
 date: 2023-08-27T02:00:00Z
 image: /images/post/android_auto_glitch.jpg
-categories: ["news", "android"]
+categories: ["car", "android"]
 featured: True
 draft: false
 
