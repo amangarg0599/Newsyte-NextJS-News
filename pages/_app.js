@@ -6,6 +6,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import { Analytics } from '@vercel/analytics/react';
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -17,8 +18,7 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
       }&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
@@ -31,12 +31,12 @@ const App = ({ Component, pageProps }) => {
 
   //     gtag('config', 'G-EQ1G07P5BZ');
   //   </script>
-      //Adsense Code
-      // <script
-      //   data-ad-client="ca-pub-1722804840732560"
-      //   async
-      //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      // ></script></>
+  //Adsense Code
+  // <script
+  //   data-ad-client="ca-pub-1722804840732560"
+  //   async
+  //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  // ></script></>
   // google tag manager (gtm)
   const tagManagerArgs = {
     gtmId: config.params.tag_manager_id,
@@ -49,8 +49,9 @@ const App = ({ Component, pageProps }) => {
     }, 5000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
+<Analytics />
   return (
+    
     <JsonContext>
       <Head>
         {/* google font css */}
@@ -74,6 +75,7 @@ const App = ({ Component, pageProps }) => {
         <Component {...pageProps} />
       </ThemeProvider>
     </JsonContext>
+    
   );
 };
 
