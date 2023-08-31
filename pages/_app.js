@@ -65,6 +65,8 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
+          {/* Adsense */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1722804840732560" crossorigin="anonymous"></script>
         <style
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,
@@ -76,6 +78,7 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
+      {/*vercel analytics */}
       <Analytics />
       <ThemeProvider attribute="class" defaultTheme={default_theme}>
         <Component {...pageProps} />
