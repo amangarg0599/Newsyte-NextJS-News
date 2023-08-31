@@ -1,8 +1,8 @@
 ---
-title: "**Google Unintentionally Reveals Upcoming Pixel 8 Pro on Official Store Page**"
+title: "Google Unintentionally Reveals Upcoming Pixel 8 Pro on Official Store Page"
 date: 2023-08-30T16:12:00Z
 image: /images/post/pixel-8-280000-16x9.jpeg
-categories: ["Leaks", "Google"]
+categories: ["pixel", "google"]
 featured: True
 draft: false
 ---
