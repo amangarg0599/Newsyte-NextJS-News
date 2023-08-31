@@ -9,14 +9,7 @@ import "styles/style.scss";
 
 import { Analytics } from '@vercel/analytics/react';
  
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  );
-}
+
  
 
 
@@ -61,7 +54,7 @@ const App = ({ Component, pageProps }) => {
     }, 5000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-<Analytics />
+
   return (
     
     <JsonContext>
@@ -83,6 +76,7 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
+      <Analytics />
       <ThemeProvider attribute="class" defaultTheme={default_theme}>
         <Component {...pageProps} />
       </ThemeProvider>
