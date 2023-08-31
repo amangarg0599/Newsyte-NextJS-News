@@ -6,7 +6,19 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+
 import { Analytics } from '@vercel/analytics/react';
+ 
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
+ 
+
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -78,5 +90,6 @@ const App = ({ Component, pageProps }) => {
     
   );
 };
+
 
 export default App;
