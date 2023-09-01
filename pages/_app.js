@@ -6,12 +6,11 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import ReactGA from "react-ga"; // Added Google Analytics import
+import { Analytics } from "@vercel/analytics/react";
 
-import { Analytics } from '@vercel/analytics/react';
- 
-
- 
-
+// Initialize Google Analytics
+ReactGA.initialize("G-EQ1G07P5BZ"); // Replace with your Measurement ID
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -23,25 +22,14 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
-      }&display=swap`
-    ).then((res) => res.text().then((css) => setFontcss(css)));
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""}&display=swap`
+    ).then((res) =>
+      res.text().then((css) => setFontcss(css))
+    );
   }, [pf, sf]);
 
-  // <!-- Google tag (gtag.js) -->
-  // <><script async src="https://www.googletagmanager.com/gtag/js?id=G-EQ1G07P5BZ"></script><script>
-  //     window.dataLayer = window.dataLayer || [];
-  //     function gtag(){dataLayer.push(arguments)};}
-  //     gtag('js', new Date());
+  // Adsense Code and other code remains the same
 
-  //     gtag('config', 'G-EQ1G07P5BZ');
-  //   </script>
-  //Adsense Code
-  // <script
-  //   data-ad-client="ca-pub-1722804840732560"
-  //   async
-  //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-  // ></script></>
   // google tag manager (gtm)
   const tagManagerArgs = {
     gtmId: config.params.tag_manager_id,
@@ -56,7 +44,6 @@ const App = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    
     <JsonContext>
       <Head>
         {/* google font css */}
@@ -65,8 +52,12 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-          {/* Adsense */}
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1722804840732560" crossorigin="anonymous"></script>
+        {/* Adsense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1722804840732560"
+          crossOrigin="anonymous"
+        ></script>
         <style
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,
@@ -78,15 +69,13 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
       </Head>
-      {/*vercel analytics */}
+      {/* Google Analytics */}
       <Analytics />
       <ThemeProvider attribute="class" defaultTheme={default_theme}>
         <Component {...pageProps} />
       </ThemeProvider>
     </JsonContext>
-    
   );
 };
-
 
 export default App;
