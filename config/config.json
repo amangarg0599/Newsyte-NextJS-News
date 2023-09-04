@@ -3,8 +3,8 @@
     "title": "Newsyte",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_white": "/images/logo.png",
+    "logo": "/images/logo.svg",
+    "logo_white": "/images/logo.svg",
     "logo_width": "150",
     "logo_height": "39",
     "logo_text": "Newsyte"
