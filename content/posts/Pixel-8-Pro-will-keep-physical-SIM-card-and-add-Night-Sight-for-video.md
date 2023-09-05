@@ -3,7 +3,7 @@ title: "Pixel 8 Pro may keep physical SIM card and add Night Sight for video"
 date: 2023-09-01T13:01:00Z
 image: /images/post/pixel-6a-camera-header-2048x1151.jpg
 categories: ["pixel", "google"]
-featured: True
+featured: False
 draft: false
 ---
 
