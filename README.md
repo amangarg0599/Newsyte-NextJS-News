@@ -1,83 +1,45 @@
-<h1 align=center>Geeky Nextjs</h1>
-<p align=center>Geeky is a free NextJs personal blog template</p>
-<h2 align="center"> <a target="_blank" href="https://geeky-nextjs.vercel.app/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fgeeky-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)</a>
-</h2>
+# Geeky Nextjs 🚀
 
-<p align=center>
-  <a href="https://github.com/vercel/next.js/releases/tag/v13.0.6" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
-  </a>
+Geeky is a free Next.js personal blog template.
 
-  <a href="https://github.com/statichunt/geeky-nextjs/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/statichunt/geeky-nextjs" alt="license"></a>
+## Demo and Page Speed 🌐
 
-  <img src="https://img.shields.io/github/languages/code-size/statichunt/geeky-nextjs" alt="code size">
+- [Demo](https://geeky-nextjs.vercel.app/) 🖥️
+- [Page Speed (100%)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgeeky-nextjs.vercel.app%2F&form_factor=desktop) 🚀
 
-  <a href="https://github.com/statichunt/geeky-nextjs/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/statichunt/geeky-nextjs" alt="contributors"></a>
-</p>
+## Project Information 📊
 
-![geeky](https://statichunt.com/themes/nextjs-geeky.png)
+- ![Next.js 13.0](https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs) 📦
+- ![License](https://img.shields.io/github/license/statichunt/geeky-nextjs) 📜
+- ![Code Size](https://img.shields.io/github/languages/code-size/statichunt/geeky-nextjs) 📏
+- ![Contributors](https://img.shields.io/github/contributors/statichunt/geeky-nextjs) 👥
 
-## Key Features
+![Geeky](https://statichunt.com/themes/nextjs-geeky.png)
 
-- Google Page Speed score 100! (Desktop)
-- Supports Contact Form
-- Disqus Comment Support
-- Related Posts Suggestion
-- MDX Support with many built-in custom components
-- Semantic HTML Document Structure
-- Custom Logo Support
-- Includes All SCSS Files
-- Taxonomy Page Support
-- Images Optimized With Next/image
+## Key Features 🔑
 
-<!-- installation -->
-## Installation
+- Google Page Speed score 100! (Desktop) 🚀
+- Supports Contact Form ✉️
+- Disqus Comment Support 💬
+- Related Posts Suggestion 📚
+- MDX Support with many built-in custom components 🛠️
+- Semantic HTML Document Structure 📄
+- Custom Logo Support 🖼️
+- Includes All SCSS Files 🎨
+- Taxonomy Page Support 🗂️
+- Images Optimized With Next/image 🌅
 
-After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+## Installation 🛠️
 
-### Install prerequisites (once for a machine)
+### Prerequisites (once for a machine)
 
-- **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
+- **Node Installation:** [Install Node.js](https://nodejs.org/en/download/) (Recommended LTS version) 📦
 
-### Local setup
+### Local Setup
 
-After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+1. After downloading the template, open it in your preferred IDE (e.g., [VS Code](https://code.visualstudio.com/)) 🖱️.
+2. Open the internal terminal (VS Code shortcut `ctrl/cmd+\`) 🖥️.
+3. Install dependencies:
 
-- Install dependencies
-
-```
-npm install
-```
-
-- Run locally
-
-```
-npm run dev
-```
-
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
-
-## Production Build
-
-After finishing all the customization, you can create a production build by running this command.
-
-```
-npm run build
-```
-
-<!-- reporting issue -->
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/statichunt/geeky-nextjs/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/statichunt/geeky-nextjs/issues).
-
-<!-- licence -->
-## License
-
-Copyright (c) 2019 - Present, Designed & Developed by [statichunt](https://statichunt.com)
-
-**Code License:** Released under the [MIT](https://github.com/statichunt/geeky-nextjs/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+   ```bash
+   npm install
