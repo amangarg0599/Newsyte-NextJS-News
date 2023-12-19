@@ -8,6 +8,9 @@ import TagManager from "react-gtm-module";
 import "styles/style.scss";
 import ReactGA from "react-ga"; // Added Google Analytics import
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import Script from "next/script";
+
 
 // Initialize Google Analytics
 ReactGA.initialize("G-EQ1G07P5BZ"); // Replace with your Measurement ID
@@ -52,12 +55,6 @@ const App = ({ Component, pageProps }) => {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        {/* Adsense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1722804840732560"
-          crossOrigin="anonymous"
-        ></script>
         <style
           dangerouslySetInnerHTML={{
             __html: `${fontcss}`,
